@@ -148,6 +148,7 @@ class DashboardVC: BaseVC, UITableViewDelegate, UITableViewDataSource {
         if tableView == facilitiesTableView{
             
             pHideTuple = [0,0]
+            rHideTuple = [0,0]
             let selectedCellData = propertyId![indexPath.row]
             let selectedID = selectedCellData.0
             for i in 0..<checkListTuple.count{
