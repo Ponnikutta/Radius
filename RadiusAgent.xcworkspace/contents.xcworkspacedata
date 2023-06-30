@@ -5,6 +5,9 @@
       location = "group:RadiusAgent.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:Pods/../README.md">
+   </FileRef>
+   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
