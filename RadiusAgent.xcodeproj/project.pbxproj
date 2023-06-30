@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		18442D76F7DCBF62B3BA86FB /* Pods_RadiusAgent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 662685F872A175F0BB8032C3 /* Pods_RadiusAgent.framework */; };
 		C23A53D72A4E22B600ADA929 /* FacilityTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23A53D62A4E22B600ADA929 /* FacilityTypeCell.swift */; };
-		C28E117E2A4EE02400C3BB0B /* vivek.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28E117D2A4EE02400C3BB0B /* vivek.swift */; };
 		C28E375C2A4DCAE900E26221 /* PropertyTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28E375B2A4DCAE900E26221 /* PropertyTypeCell.swift */; };
 		C28E37862A4E00DA00E26221 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C28E37732A4E00D900E26221 /* Poppins-MediumItalic.ttf */; };
 		C28E37872A4E00DA00E26221 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C28E37742A4E00D900E26221 /* Poppins-BlackItalic.ttf */; };
@@ -44,7 +43,6 @@
 		5AE0874931B5B5404814A603 /* Pods-RadiusAgent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadiusAgent.debug.xcconfig"; path = "Target Support Files/Pods-RadiusAgent/Pods-RadiusAgent.debug.xcconfig"; sourceTree = "<group>"; };
 		662685F872A175F0BB8032C3 /* Pods_RadiusAgent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RadiusAgent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C23A53D62A4E22B600ADA929 /* FacilityTypeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilityTypeCell.swift; sourceTree = "<group>"; };
-		C28E117D2A4EE02400C3BB0B /* vivek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vivek.swift; sourceTree = "<group>"; };
 		C28E375B2A4DCAE900E26221 /* PropertyTypeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyTypeCell.swift; sourceTree = "<group>"; };
 		C28E37732A4E00D900E26221 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-MediumItalic.ttf"; path = "../../../../Downloads/Poppins/Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
 		C28E37742A4E00D900E26221 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-BlackItalic.ttf"; path = "../../../../Downloads/Poppins/Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
@@ -144,7 +142,6 @@
 				C28E375B2A4DCAE900E26221 /* PropertyTypeCell.swift */,
 				C28E379A2A4E126600E26221 /* RoomTypeCell.swift */,
 				C23A53D62A4E22B600ADA929 /* FacilityTypeCell.swift */,
-				C28E117D2A4EE02400C3BB0B /* vivek.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -302,7 +299,6 @@
 				C291D85A2A4EB270005E031E /* SpinnerView.swift in Sources */,
 				C23A53D72A4E22B600ADA929 /* FacilityTypeCell.swift in Sources */,
 				C28E375C2A4DCAE900E26221 /* PropertyTypeCell.swift in Sources */,
-				C28E117E2A4EE02400C3BB0B /* vivek.swift in Sources */,
 				C29E35542A4BF6F9001810AE /* AppDelegate.swift in Sources */,
 				C29E35562A4BF6F9001810AE /* SceneDelegate.swift in Sources */,
 				C29E356A2A4BF783001810AE /* BaseVC.swift in Sources */,
