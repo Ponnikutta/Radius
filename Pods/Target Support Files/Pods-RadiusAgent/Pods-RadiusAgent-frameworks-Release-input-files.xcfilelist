@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-RadiusAgent/Pods-RadiusAgent-frameworks.sh
+${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework

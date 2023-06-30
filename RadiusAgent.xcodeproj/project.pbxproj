@@ -7,23 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18442D76F7DCBF62B3BA86FB /* Pods_RadiusAgent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 662685F872A175F0BB8032C3 /* Pods_RadiusAgent.framework */; };
+		C23A53D72A4E22B600ADA929 /* FacilityTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23A53D62A4E22B600ADA929 /* FacilityTypeCell.swift */; };
+		C28E375C2A4DCAE900E26221 /* PropertyTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28E375B2A4DCAE900E26221 /* PropertyTypeCell.swift */; };
+		C28E37862A4E00DA00E26221 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C28E37732A4E00D900E26221 /* Poppins-MediumItalic.ttf */; };
+		C28E37872A4E00DA00E26221 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C28E37742A4E00D900E26221 /* Poppins-BlackItalic.ttf */; };
+		C28E37882A4E00DA00E26221 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C28E37752A4E00D900E26221 /* Poppins-Bold.ttf */; };
+		C28E37892A4E00DA00E26221 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C28E37762A4E00D900E26221 /* Poppins-Italic.ttf */; };
+		C28E378A2A4E00DA00E26221 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C28E37772A4E00D900E26221 /* Poppins-ExtraBoldItalic.ttf */; };
+		C28E378B2A4E00DA00E26221 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = C28E37782A4E00D900E26221 /* OFL.txt */; };
+		C28E378C2A4E00DA00E26221 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C28E37792A4E00D900E26221 /* Poppins-ExtraLight.ttf */; };
+		C28E378D2A4E00DA00E26221 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C28E377A2A4E00D900E26221 /* Poppins-LightItalic.ttf */; };
+		C28E378E2A4E00DA00E26221 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C28E377B2A4E00D900E26221 /* Poppins-Regular.ttf */; };
+		C28E378F2A4E00DA00E26221 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C28E377C2A4E00D900E26221 /* Poppins-SemiBold.ttf */; };
+		C28E37902A4E00DA00E26221 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C28E377D2A4E00D900E26221 /* Poppins-SemiBoldItalic.ttf */; };
+		C28E37912A4E00DA00E26221 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C28E377E2A4E00D900E26221 /* Poppins-Medium.ttf */; };
+		C28E37922A4E00DA00E26221 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C28E377F2A4E00DA00E26221 /* Poppins-BoldItalic.ttf */; };
+		C28E37932A4E00DA00E26221 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C28E37802A4E00DA00E26221 /* Poppins-Light.ttf */; };
+		C28E37962A4E00DA00E26221 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C28E37832A4E00DA00E26221 /* Poppins-ExtraBold.ttf */; };
+		C28E37972A4E00DA00E26221 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C28E37842A4E00DA00E26221 /* Poppins-ExtraLightItalic.ttf */; };
+		C28E37982A4E00DA00E26221 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C28E37852A4E00DA00E26221 /* Poppins-Black.ttf */; };
+		C28E379B2A4E126600E26221 /* RoomTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28E379A2A4E126600E26221 /* RoomTypeCell.swift */; };
+		C291D85A2A4EB270005E031E /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C291D8592A4EB270005E031E /* SpinnerView.swift */; };
 		C29E35542A4BF6F9001810AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29E35532A4BF6F9001810AE /* AppDelegate.swift */; };
 		C29E35562A4BF6F9001810AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29E35552A4BF6F9001810AE /* SceneDelegate.swift */; };
-		C29E35582A4BF6F9001810AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29E35572A4BF6F9001810AE /* ViewController.swift */; };
 		C29E355B2A4BF6F9001810AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29E35592A4BF6F9001810AE /* Main.storyboard */; };
 		C29E355D2A4BF6FC001810AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C29E355C2A4BF6FC001810AE /* Assets.xcassets */; };
 		C29E35602A4BF6FC001810AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29E355E2A4BF6FC001810AE /* LaunchScreen.storyboard */; };
+		C29E35682A4BF74C001810AE /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29E35672A4BF74C001810AE /* DashboardVC.swift */; };
+		C29E356A2A4BF783001810AE /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29E35692A4BF783001810AE /* BaseVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A22F3513197C1D04B6F9086 /* Pods-RadiusAgent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadiusAgent.release.xcconfig"; path = "Target Support Files/Pods-RadiusAgent/Pods-RadiusAgent.release.xcconfig"; sourceTree = "<group>"; };
+		5AE0874931B5B5404814A603 /* Pods-RadiusAgent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadiusAgent.debug.xcconfig"; path = "Target Support Files/Pods-RadiusAgent/Pods-RadiusAgent.debug.xcconfig"; sourceTree = "<group>"; };
+		662685F872A175F0BB8032C3 /* Pods_RadiusAgent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RadiusAgent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C23A53D62A4E22B600ADA929 /* FacilityTypeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilityTypeCell.swift; sourceTree = "<group>"; };
+		C28E375B2A4DCAE900E26221 /* PropertyTypeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyTypeCell.swift; sourceTree = "<group>"; };
+		C28E37732A4E00D900E26221 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-MediumItalic.ttf"; path = "../../../../Downloads/Poppins/Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		C28E37742A4E00D900E26221 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-BlackItalic.ttf"; path = "../../../../Downloads/Poppins/Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		C28E37752A4E00D900E26221 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "../../../../Downloads/Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		C28E37762A4E00D900E26221 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Italic.ttf"; path = "../../../../Downloads/Poppins/Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		C28E37772A4E00D900E26221 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-ExtraBoldItalic.ttf"; path = "../../../../Downloads/Poppins/Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		C28E37782A4E00D900E26221 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = OFL.txt; path = ../../../../Downloads/Poppins/OFL.txt; sourceTree = "<group>"; };
+		C28E37792A4E00D900E26221 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-ExtraLight.ttf"; path = "../../../../Downloads/Poppins/Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		C28E377A2A4E00D900E26221 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-LightItalic.ttf"; path = "../../../../Downloads/Poppins/Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		C28E377B2A4E00D900E26221 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "../../../../Downloads/Poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		C28E377C2A4E00D900E26221 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-SemiBold.ttf"; path = "../../../../Downloads/Poppins/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		C28E377D2A4E00D900E26221 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-SemiBoldItalic.ttf"; path = "../../../../Downloads/Poppins/Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		C28E377E2A4E00D900E26221 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Medium.ttf"; path = "../../../../Downloads/Poppins/Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		C28E377F2A4E00DA00E26221 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-BoldItalic.ttf"; path = "../../../../Downloads/Poppins/Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		C28E37802A4E00DA00E26221 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Light.ttf"; path = "../../../../Downloads/Poppins/Poppins-Light.ttf"; sourceTree = "<group>"; };
+		C28E37832A4E00DA00E26221 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-ExtraBold.ttf"; path = "../../../../Downloads/Poppins/Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		C28E37842A4E00DA00E26221 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-ExtraLightItalic.ttf"; path = "../../../../Downloads/Poppins/Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		C28E37852A4E00DA00E26221 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Black.ttf"; path = "../../../../Downloads/Poppins/Poppins-Black.ttf"; sourceTree = "<group>"; };
+		C28E379A2A4E126600E26221 /* RoomTypeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomTypeCell.swift; sourceTree = "<group>"; };
+		C291D8592A4EB270005E031E /* SpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
 		C29E35502A4BF6F9001810AE /* RadiusAgent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadiusAgent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C29E35532A4BF6F9001810AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C29E35552A4BF6F9001810AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C29E35572A4BF6F9001810AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C29E355A2A4BF6F9001810AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C29E355C2A4BF6FC001810AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C29E355F2A4BF6FC001810AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C29E35612A4BF6FC001810AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C29E35672A4BF74C001810AE /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
+		C29E35692A4BF783001810AE /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +79,80 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18442D76F7DCBF62B3BA86FB /* Pods_RadiusAgent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FE611387E72359309FD5C5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AE0874931B5B5404814A603 /* Pods-RadiusAgent.debug.xcconfig */,
+				0A22F3513197C1D04B6F9086 /* Pods-RadiusAgent.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5C707FBC11F9C9195C85C75A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				662685F872A175F0BB8032C3 /* Pods_RadiusAgent.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C28E37722A4E00BE00E26221 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C28E37782A4E00D900E26221 /* OFL.txt */,
+				C28E37852A4E00DA00E26221 /* Poppins-Black.ttf */,
+				C28E37742A4E00D900E26221 /* Poppins-BlackItalic.ttf */,
+				C28E37752A4E00D900E26221 /* Poppins-Bold.ttf */,
+				C28E377F2A4E00DA00E26221 /* Poppins-BoldItalic.ttf */,
+				C28E37832A4E00DA00E26221 /* Poppins-ExtraBold.ttf */,
+				C28E37772A4E00D900E26221 /* Poppins-ExtraBoldItalic.ttf */,
+				C28E37792A4E00D900E26221 /* Poppins-ExtraLight.ttf */,
+				C28E37842A4E00DA00E26221 /* Poppins-ExtraLightItalic.ttf */,
+				C28E37762A4E00D900E26221 /* Poppins-Italic.ttf */,
+				C28E37802A4E00DA00E26221 /* Poppins-Light.ttf */,
+				C28E377A2A4E00D900E26221 /* Poppins-LightItalic.ttf */,
+				C28E377E2A4E00D900E26221 /* Poppins-Medium.ttf */,
+				C28E37732A4E00D900E26221 /* Poppins-MediumItalic.ttf */,
+				C28E377B2A4E00D900E26221 /* Poppins-Regular.ttf */,
+				C28E377C2A4E00D900E26221 /* Poppins-SemiBold.ttf */,
+				C28E377D2A4E00D900E26221 /* Poppins-SemiBoldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C28E37992A4E019C00E26221 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C29E35552A4BF6F9001810AE /* SceneDelegate.swift */,
+				C29E35532A4BF6F9001810AE /* AppDelegate.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C28E379C2A4E126D00E26221 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C28E375B2A4DCAE900E26221 /* PropertyTypeCell.swift */,
+				C28E379A2A4E126600E26221 /* RoomTypeCell.swift */,
+				C23A53D62A4E22B600ADA929 /* FacilityTypeCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		C29E35472A4BF6F9001810AE = {
 			isa = PBXGroup;
 			children = (
 				C29E35522A4BF6F9001810AE /* RadiusAgent */,
 				C29E35512A4BF6F9001810AE /* Products */,
+				3FE611387E72359309FD5C5E /* Pods */,
+				5C707FBC11F9C9195C85C75A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +167,16 @@
 		C29E35522A4BF6F9001810AE /* RadiusAgent */ = {
 			isa = PBXGroup;
 			children = (
-				C29E35532A4BF6F9001810AE /* AppDelegate.swift */,
-				C29E35552A4BF6F9001810AE /* SceneDelegate.swift */,
-				C29E35572A4BF6F9001810AE /* ViewController.swift */,
+				C291D8592A4EB270005E031E /* SpinnerView.swift */,
+				C29E35692A4BF783001810AE /* BaseVC.swift */,
+				C29E35672A4BF74C001810AE /* DashboardVC.swift */,
+				C28E379C2A4E126D00E26221 /* Cell */,
 				C29E35592A4BF6F9001810AE /* Main.storyboard */,
-				C29E355C2A4BF6FC001810AE /* Assets.xcassets */,
 				C29E355E2A4BF6FC001810AE /* LaunchScreen.storyboard */,
+				C29E355C2A4BF6FC001810AE /* Assets.xcassets */,
 				C29E35612A4BF6FC001810AE /* Info.plist */,
+				C28E37992A4E019C00E26221 /* Common */,
+				C28E37722A4E00BE00E26221 /* Fonts */,
 			);
 			path = RadiusAgent;
 			sourceTree = "<group>";
@@ -74,6 +188,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C29E35642A4BF6FC001810AE /* Build configuration list for PBXNativeTarget "RadiusAgent" */;
 			buildPhases = (
+				9D0E09CBB746A137E18EC5CF /* [CP] Check Pods Manifest.lock */,
 				C29E354C2A4BF6F9001810AE /* Sources */,
 				C29E354D2A4BF6F9001810AE /* Frameworks */,
 				C29E354E2A4BF6F9001810AE /* Resources */,
@@ -125,22 +240,69 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C28E378C2A4E00DA00E26221 /* Poppins-ExtraLight.ttf in Resources */,
+				C28E37932A4E00DA00E26221 /* Poppins-Light.ttf in Resources */,
+				C28E378A2A4E00DA00E26221 /* Poppins-ExtraBoldItalic.ttf in Resources */,
 				C29E35602A4BF6FC001810AE /* LaunchScreen.storyboard in Resources */,
+				C28E37902A4E00DA00E26221 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				C28E378E2A4E00DA00E26221 /* Poppins-Regular.ttf in Resources */,
+				C28E378F2A4E00DA00E26221 /* Poppins-SemiBold.ttf in Resources */,
+				C28E37982A4E00DA00E26221 /* Poppins-Black.ttf in Resources */,
+				C28E37882A4E00DA00E26221 /* Poppins-Bold.ttf in Resources */,
+				C28E378B2A4E00DA00E26221 /* OFL.txt in Resources */,
+				C28E37892A4E00DA00E26221 /* Poppins-Italic.ttf in Resources */,
+				C28E37912A4E00DA00E26221 /* Poppins-Medium.ttf in Resources */,
+				C28E37862A4E00DA00E26221 /* Poppins-MediumItalic.ttf in Resources */,
+				C28E37872A4E00DA00E26221 /* Poppins-BlackItalic.ttf in Resources */,
 				C29E355D2A4BF6FC001810AE /* Assets.xcassets in Resources */,
+				C28E37972A4E00DA00E26221 /* Poppins-ExtraLightItalic.ttf in Resources */,
 				C29E355B2A4BF6F9001810AE /* Main.storyboard in Resources */,
+				C28E37962A4E00DA00E26221 /* Poppins-ExtraBold.ttf in Resources */,
+				C28E378D2A4E00DA00E26221 /* Poppins-LightItalic.ttf in Resources */,
+				C28E37922A4E00DA00E26221 /* Poppins-BoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9D0E09CBB746A137E18EC5CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RadiusAgent-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C29E354C2A4BF6F9001810AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C29E35582A4BF6F9001810AE /* ViewController.swift in Sources */,
+				C29E35682A4BF74C001810AE /* DashboardVC.swift in Sources */,
+				C291D85A2A4EB270005E031E /* SpinnerView.swift in Sources */,
+				C23A53D72A4E22B600ADA929 /* FacilityTypeCell.swift in Sources */,
+				C28E375C2A4DCAE900E26221 /* PropertyTypeCell.swift in Sources */,
 				C29E35542A4BF6F9001810AE /* AppDelegate.swift in Sources */,
 				C29E35562A4BF6F9001810AE /* SceneDelegate.swift in Sources */,
+				C29E356A2A4BF783001810AE /* BaseVC.swift in Sources */,
+				C28E379B2A4E126600E26221 /* RoomTypeCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +444,7 @@
 		};
 		C29E35652A4BF6FC001810AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AE0874931B5B5404814A603 /* Pods-RadiusAgent.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +473,7 @@
 		};
 		C29E35662A4BF6FC001810AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A22F3513197C1D04B6F9086 /* Pods-RadiusAgent.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
